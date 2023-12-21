@@ -1,5 +1,10 @@
 package com.qa.test;
 
-public class LoginPageTest {
+import org.testng.annotations.Test;
 
+public class LoginPageTest {
+	@Test 
+	public void loginPageTest() {
+		System.out.println("login page test");
+	}
 }
